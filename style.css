@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+.wrapper {
+  background-color: rgb(72, 245, 115);
+  width: 100%;
+  min-height: 100vh;
+}
+.main {
+  max-width: 1000px;
+  margin: 50px auto 0 auto;
+  border: 2px solid black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+.header {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  align-items: center;
+}
